@@ -1,0 +1,211 @@
+                        * {
+                            box-sizing: border-box;
+                        }
+                        
+                        .main-block {
+                            position: relative;
+                            width: 1440px;
+                            height: 950px;
+                            background: #f7f5f5;
+                        }
+                        
+                        .logo {
+                            position: absolute;
+                            width: 60px;
+                            height: 43px;
+                            left: 88px;
+                            top: 60px;
+                        }
+                        
+                        .menu {
+                            list-style: none;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 0px;
+                            position: absolute;
+                            width: 626px;
+                            height: 46px;
+                            right: 80px;
+                            top: 60px;
+                        }
+                        
+                        a {
+                            font-family: Lato;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 13px;
+                            line-height: 28px;
+                            text-decoration: none;
+                            color: #060C31;
+                        }
+                        
+                        li {
+                            margin-right: 39.5px;
+                        }
+                        
+                        .btn-nav {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 14px 36px;
+                            position: static;
+                            width: 156px;
+                            height: 46px;
+                            left: 470px;
+                            top: 0px;
+                            border: 1px solid #FFB0B1;
+                            box-sizing: border-box;
+                            border-radius: 50px;
+                        }
+                        
+                        a.btn-nav {
+                            padding: 10px;
+                            font-family: Lato;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 15px;
+                            line-height: 0px;
+                        }
+                        
+                        .headline {
+                            position: absolute;
+                            width: 449px;
+                            height: 192px;
+                            left: 200px;
+                            top: 270px;
+                            font-family: Crete Round;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 58px;
+                            line-height: 64px;
+                            /* or 110% */
+                            color: #060C31;
+                        }
+                        
+                        .description {
+                            position: absolute;
+                            width: 436px;
+                            height: 84px;
+                            left: 200px;
+                            top: 504px;
+                            font-family: Lato;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 15px;
+                            line-height: 28px;
+                            /* or 187% */
+                            letter-spacing: 0.75px;
+                            color: #060C31;
+                        }
+                        
+                        .main_image {
+                            position: absolute;
+                            width: 800px;
+                            height: 600px;
+                            right: 0px;
+                            top: 170px;
+                        }
+                        
+                        .buttons {
+                            position: absolute;
+                            width: 332px;
+                            height: 50px;
+                            left: 200px;
+                            top: 664px;
+                        }
+                        
+                        .button_button_blue {
+                            position: absolute;
+                            width: 156px;
+                            height: 50px;
+                            left: 0px;
+                            top: 0px;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            padding: 16px 36px;
+                            background: #233FE2;
+                            border-radius: 50px;
+                            font-family: Lato;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 15px;
+                            line-height: 0px;
+                            color: #FFFFFF;
+                        }
+                        
+                        .button_button_light {
+                            position: absolute;
+                            width: 156px;
+                            height: 50px;
+                            left: 176px;
+                            top: 0px;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 10px;
+                            border: 1px solid #FFB0B1;
+                            box-sizing: border-box;
+                            border-radius: 50px;
+                            font-family: Lato;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 15px;
+                            line-height: 0px;
+                            align-items: center;
+                            text-align: center;
+                            color: #060C31;
+                            flex: none;
+                        }
+                        
+                        .container {
+                            position: absolute;
+                            width: 804px;
+                            height: 30px;
+                            left: 548px;
+                            top: 874px;
+                        }
+                        
+                        .altmetric img {
+                            position: absolute;
+                            width: 87px;
+                            height: 30px;
+                            left: 0px;
+                            top: 0px;
+                        }
+                        
+                        .coca-cola img {
+                            position: absolute;
+                            width: 64px;
+                            height: 21px;
+                            left: 191px;
+                            top: 5px;
+                        }
+                        
+                        .unicef img {
+                            position: absolute;
+                            width: 83px;
+                            height: 21px;
+                            left: 363px;
+                            top: 5px;
+                        }
+                        
+                        .gasin img {
+                            position: absolute;
+                            width: 77px;
+                            height: 18px;
+                            left: 546px;
+                            top: 6px;
+                        }
+                        
+                        .github img {
+                            position: absolute;
+                            width: 77px;
+                            height: 20px;
+                            left: 727px;
+                            top: 5px;
+                        }
